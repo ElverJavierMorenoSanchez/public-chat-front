@@ -25,7 +25,7 @@ const Auth = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const URL = "https://public-chat-backend-production.up.railway.app/auth";
+    const URL = "https://public-chat-backend.onrender.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
