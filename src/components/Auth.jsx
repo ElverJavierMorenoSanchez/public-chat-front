@@ -25,7 +25,7 @@ const Auth = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const URL = "http://localhost:5000/auth";
+    const URL = "https://public-chat-backend-production.up.railway.app/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
